@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Warming Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            width: 90%;
+            max-width: 700px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+    <script>
+        function showMore() {
+            document.getElementById("extraContent").style.display = "block";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Global Warming Awareness</h1>
+        <img src="ice.jpg" alt="Melting Ice">
+        <p>Global warming is a long-term rise in Earth's temperature, primarily caused by human activities such as burning fossil fuels, deforestation, and industrial emissions.</p>
+        
+        <img src="firee.jpg" alt="Forest Fires">
+        <p>It leads to climate change, rising sea levels, and extreme weather events like wildfires and hurricanes.</p>
+        
+        <img src="pollution.jpg" alt="Pollution">
+        <p>Reducing carbon footprints, using renewable energy, and planting trees are some ways to combat global warming. Every small action counts in preserving our planet for future generations.</p>
+        
+        <button onclick="showMore()">Learn More</button>
+        
+        <div id="extraContent" style="display: none; margin-top: 20px;">
+            <img src="renewable.jpg" alt="Renewable Energy">
+            <p>Switching to renewable energy sources such as solar and wind power can significantly reduce greenhouse gas emissions.</p>
+            <img src="recycle.jpg" alt="Recycling Efforts">
+            <p>Recycling and reducing waste can also help mitigate climate change by lowering pollution and conserving resources.</p>
+        </div>
+    </div>
+</body>
+</html>
